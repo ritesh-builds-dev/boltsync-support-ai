@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 BoltSync
+### *The Intelligent AI Support Layer for Modern Enterprises*
 
-## Getting Started
+**BoltSync** is a high-performance, enterprise-grade AI chatbot platform designed to deliver fast and context-aware support experiences.
+Powered by **Google Gemini 2.5 Flash**, it integrates directly with your business knowledge base to ensure accurate and reliable responses.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌐 Deployment Status
+
+**Environment:** Production  
+**Live Application:**[ &nbsp;Click here to open BoltSync](https://your-project-name.vercel.app)  
+**Status:** 🟢 Active and Operational
+
+---
+
+## ✨ Core Capabilities
+
+**🧠 Advanced AI Intelligence**  
+Delivers human-like understanding and response generation using modern AI models.
+
+**🏢 Business-Centric Accuracy**  
+Responses are strictly grounded in your custom business data to maintain relevance.
+
+**🌍 Multilingual Support**  
+Supports Hindi, English, and multiple global languages.
+
+**🔐 Secure Architecture**  
+Implements authentication and safeguards against prompt injection.
+
+**⚡ Easy Deployment**  
+Embed into any website using a single lightweight script.
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Next.js 15, TypeScript, Tailwind CSS |
+| Backend | Next.js API Routes (Serverless) |
+| AI Engine | Google Gemini 2.5 Flash |
+| Database | MongoDB Atlas with Mongoose |
+| Security | ScaleKit (SSO/Auth) |
+| Widget | Vanilla JavaScript |
+
+---
+
+## 📁 System Architecture
+
+```text
+bolt-sync/
+├── public/
+│   └── chatBot.js
+│
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── auth/
+│   │   │   │   ├── callback/route.ts
+│   │   │   │   ├── login/route.ts
+│   │   │   │   └── logout/route.ts
+│   │   │   │
+│   │   │   ├── chat/route.ts
+│   │   │   └── settings/get/route.ts
+│   │   │
+│   │   ├── dashboard/page.tsx
+│   │   ├── embed/page.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │
+│   ├── component/
+│   ├── lib/
+│   ├── model/
+│   └── middleware.ts
+│
+├── .env.local
+└── next.config.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👨‍💻 Developer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Ritesh Choudhary**  
+Building scalable AI systems for modern web applications.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⭐ Support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you find this project useful:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ⭐ Star the repository
+- 🍴 Fork and contribute
+- 📢 Share with others
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For support or queries: [📧 ritesh.rc.in@gmail.com](mailto:ritesh.rc.in@gmail.com)

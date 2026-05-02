@@ -1,5 +1,5 @@
 {
-  "name": "support-ai",
+  "name": "boltsync-support-ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.2.4",
+    "@google/genai": "^1.51.0",
+    "@scalekit-sdk/node": "^2.6.0",
+    "axios": "^1.15.2",
+    "mongoose": "^9.6.0",
+    "motion": "^12.38.0",
+    "next": "^15.3.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -19,7 +24,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.4",
+    "eslint-config-next": "^15.3.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
