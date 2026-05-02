@@ -1,6 +1,6 @@
 (function () {
 
-  const api_Url = "http://localhost:3000/api/chat";
+  const api_Url = "https://boltsync-support-ai-2vqi.vercel.app/api/chat";
 
   const scriptTag = document.currentScript;
   const OwnerId = scriptTag.getAttribute("data-owner-id");

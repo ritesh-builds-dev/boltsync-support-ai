@@ -9,7 +9,7 @@ Powered by **Google Gemini 2.5 Flash**, it integrates directly with your busines
 ## 🌐 Deployment Status
 
 **Environment:** Production  
-**Live Application:**[ &nbsp;Click here to open BoltSync](https://your-project-name.vercel.app)  
+**Live Application:**[ &nbsp;Click here to open BoltSync](https://boltsync-support-ai-2vqi.vercel.app/)  
 **Status:** 🟢 Active and Operational
 
 ---
